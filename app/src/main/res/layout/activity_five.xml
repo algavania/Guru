@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityFive">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_three"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/green"
+            app:titleTextAppearance="@style/Toolbar.TitleText"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_pembimbingDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Pembimbing"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataNamaPembimbingDetail"
+                    android:layout_below="@id/tv_pembimbingDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Aji Suryawan"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_one"
+                    android:layout_below="@id/tv_dataNamaPembimbingDetail"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_one"
+                    android:id="@+id/tv_tanggalDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Tanggal"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataTanggalDetail"
+                    android:layout_below="@id/tv_tanggalDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="29/04/2020"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_two"
+                    android:layout_below="@id/tv_dataTanggalDetail"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_two"
+                    android:id="@+id/tv_kelompokBelajarDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Kelompok Belajar"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataKelompokBelajarDetail"
+                    android:layout_below="@id/tv_kelompokBelajarDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Umar Bin Khatab"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_three"
+                    android:layout_below="@id/tv_dataKelompokBelajarDetail"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_three"
+                    android:id="@+id/tv_namaSantriDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Nama Santri"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataNamaSantriDetail"
+                    android:layout_below="@id/tv_namaSantriDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Danil Arya"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_four"
+                    android:layout_below="@id/tv_dataNamaSantriDetail"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_four"
+                    android:id="@+id/tv_laporanKegiatanDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Laporan Kegiatan"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataLaporanKegiatanDetail"
+                    android:layout_below="@id/tv_laporanKegiatanDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie porta odio ut tristique. Vestibulum quis justo quis lectus interdum euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam ut augue ac eros consectetur hendrerit sit amet sed eros. Duis dictum risus purus, iaculis rutrum orci ultricies a. Duis ac fringilla neque. "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_five"
+                    android:layout_below="@id/tv_dataLaporanKegiatanDetail"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_five"
+                    android:id="@+id/tv_fotoKegiatanDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Foto Kegiatan"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/tv_dataFotoKegiatanDetail"
+                    android:layout_below="@id/tv_fotoKegiatanDetail"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/fotokegiatan"
+                    android:layout_height="210dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"/>
+
+
+            </RelativeLayout>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/toolbar_shadow"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

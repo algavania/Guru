@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_four"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/green"
+            app:titleTextAppearance="@style/Toolbar.TitleText"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_logo_two"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo"/>
+
+                <TextView
+                    android:layout_below="@id/img_logo_two"
+                    android:id="@+id/tv_namaProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Nama"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataNamaProfil"
+                    android:layout_below="@id/tv_namaProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Aji Suryawan"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_profile_one"
+                    android:layout_below="@id/tv_dataNamaProfil"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_profile_one"
+                    android:id="@+id/tv_nipProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="NIP"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataNipProfile"
+                    android:layout_below="@id/tv_nipProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="19936909"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_profile_two"
+                    android:layout_below="@id/tv_dataNipProfile"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_profile_two"
+                    android:id="@+id/tv_jabatanProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Jabatan"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataJabatanProfile"
+                    android:layout_below="@id/tv_jabatanProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Pengajar"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/view_profile_three"
+                    android:layout_below="@id/tv_dataJabatanProfile"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <TextView
+                    android:layout_below="@id/view_profile_three"
+                    android:id="@+id/tv_pengampuProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Pengampu Kelompok"
+                    android:textColor="@color/darkorange"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_dataPengampuProfile"
+                    android:layout_below="@id/tv_pengampuProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:text="Umar Bin Khatab, Abu Bakar"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_below="@id/tv_dataPengampuProfile"
+                    android:layout_width="800dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/orange"/>
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_below="@id/tv_dataPengampuProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_three"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Logout"
+                    android:fontFamily="@font/cocogoose"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/toolbar_shadow"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>
